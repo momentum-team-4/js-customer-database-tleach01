@@ -1,6 +1,4 @@
 
-
-
 function addPerson () {
   const customerProfile = document.querySelector('#customerInfo')
   for (let customer of customers) {
@@ -23,12 +21,10 @@ function addPerson () {
     const streetAddress = document.createElement('p')
     customerProfile.lastElementChild.appendChild(streetAddress)
     streetAddress.innerText = customer.location.street
-    // need capitalization here
 
     const cityStAddress = document.createElement('p')
     customerProfile.lastElementChild.appendChild(cityStAddress)
-    cityStAddress.innerText = customer.location.city + ' ' + customer.location.state + ' ' + customer.location.postcode
-    // capitalization again
+    cityStAddress.innerText = customer.location.city + ' ' + nameToAbbr(customer.location.state) + ' ' + customer.location.postcode
 
     const phone = document.createElement('p')
     customerProfile.lastElementChild.appendChild(phone)
@@ -36,7 +32,7 @@ function addPerson () {
 
     const birthdate = document.createElement('p')
     customerProfile.lastElementChild.appendChild(birthdate)
-    birthdate.innerText = 'DOB:' + customer.dob
+    birthdate.innerText = 'DOB:' + (customer.dob)
     // need to format dob
 
     const registered = document.createElement('p')
@@ -46,3 +42,7 @@ function addPerson () {
 }
 }
 addPerson()
+
+
+// state abb
+
