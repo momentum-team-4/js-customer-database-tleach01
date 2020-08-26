@@ -14,7 +14,6 @@ function addPerson () {
     const h2 = document.createElement('h2')
     customerProfile.lastElementChild.appendChild(h2)
     h2.innerText = customer.name.first + ' ' + customer.name.last
-    // need to capitalize first letters
 
     const email = document.createElement('p')
     customerProfile.lastElementChild.appendChild(email)
@@ -23,26 +22,27 @@ function addPerson () {
     const streetAddress = document.createElement('p')
     customerProfile.lastElementChild.appendChild(streetAddress)
     streetAddress.innerText = customer.location.street
-    // need capitalization here too
+    // need capitalization here 
 
     const cityStAddress = document.createElement('p')
     customerProfile.lastElementChild.appendChild(cityStAddress)
     cityStAddress.innerText = customer.location.city + ' ' + customer.location.state + ' ' + customer.location.postcode
-    // capitalize again
+    // capitalization again
 
     const phone = document.createElement('p')
     customerProfile.lastElementChild.appendChild(phone)
-    phone.innerText = customer.phone
+    phone.innerText = 'Phone:' + customer.phone 
 
     const birthdate = document.createElement('p')
     customerProfile.lastElementChild.appendChild(birthdate)
-    birthdate.innerText = customer.dob
+    birthdate.innerText = 'DOB:' + customer.dob
     // need to format dob
 
     const registered = document.createElement('p')
     customerProfile.lastElementChild.appendChild(registered)
-    registered.innerText = customer.registered
+    registered.innerText = 'Joined: ' + customer.registered
     // need to format this date too
 }
 }
 addPerson();
+

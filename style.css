@@ -2,7 +2,6 @@
     font-family: sans-serif;
 }
 
-
 #customerInfo {
     list-style-type: none;
     display: flex;
@@ -16,5 +15,18 @@
     width: 200px;
     margin: 15px;
     border: 2px double rgb(21, 101, 148);
-    border-radius: 15px;
+    border-radius: 25px;
   }
+
+  h1{
+    text-align: center;
+   
+  }
+
+  h2{
+    text-decoration: underline rgb(32, 72, 148);
+  }
+
+ p{
+     font-style: italic;
+ }

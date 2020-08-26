@@ -3,8 +3,8 @@ const customers = [
     'gender': 'male',
     'name': {
       'title': 'mr',
-      'first': 'curtis',
-      'last': 'ryan'
+      'first': 'Curtis',
+      'last': 'Ryan'
     },
     'location': {
       'street': '8073 rolling green rd',
@@ -39,8 +39,8 @@ const customers = [
     'gender': 'male',
     'name': {
       'title': 'mr',
-      'first': 'martin',
-      'last': 'terry'
+      'first': 'Martin',
+      'last': 'Terry'
     },
     'location': {
       'street': '5377 hogan st',
@@ -75,8 +75,8 @@ const customers = [
     'gender': 'female',
     'name': {
       'title': 'miss',
-      'first': 'christine',
-      'last': 'cooper'
+      'first': 'Christine',
+      'last': 'Cooper'
     },
     'location': {
       'street': '7725 fincher rd',
@@ -111,8 +111,8 @@ const customers = [
     'gender': 'male',
     'name': {
       'title': 'mr',
-      'first': 'norman',
-      'last': 'henderson'
+      'first': 'Norman',
+      'last': 'Henderson'
     },
     'location': {
       'street': '6481 mockingbird hill',
@@ -147,8 +147,8 @@ const customers = [
     'gender': 'male',
     'name': {
       'title': 'mr',
-      'first': 'jose',
-      'last': 'rhodes'
+      'first': 'Jose',
+      'last': 'Rhodes'
     },
     'location': {
       'street': '3347 hickory creek dr',
@@ -183,8 +183,8 @@ const customers = [
     'gender': 'female',
     'name': {
       'title': 'mrs',
-      'first': 'pauline',
-      'last': 'hughes'
+      'first': 'Pauline',
+      'last': 'Hughes'
     },
     'location': {
       'street': '3747 elgin st',
@@ -219,8 +219,8 @@ const customers = [
     'gender': 'male',
     'name': {
       'title': 'mr',
-      'first': 'darren',
-      'last': 'hunter'
+      'first': 'Darren',
+      'last': 'Hunter'
     },
     'location': {
       'street': '4226 thornridge cir',
@@ -255,8 +255,8 @@ const customers = [
     'gender': 'male',
     'name': {
       'title': 'mr',
-      'first': 'oscar',
-      'last': 'walker'
+      'first': 'Oscar',
+      'last': 'Walker'
     },
     'location': {
       'street': '7260 e north st',
@@ -291,8 +291,8 @@ const customers = [
     'gender': 'female',
     'name': {
       'title': 'miss',
-      'first': 'ann',
-      'last': 'beck'
+      'first': 'Ann',
+      'last': 'Beck'
     },
     'location': {
       'street': '1989 northaven rd',
@@ -327,8 +327,8 @@ const customers = [
     'gender': 'female',
     'name': {
       'title': 'mrs',
-      'first': 'harper',
-      'last': 'morales'
+      'first': 'Harper',
+      'last': 'Morales'
     },
     'location': {
       'street': '5443 lovers ln',
@@ -363,8 +363,8 @@ const customers = [
     'gender': 'female',
     'name': {
       'title': 'miss',
-      'first': 'tammy',
-      'last': 'hill'
+      'first': 'Tammy',
+      'last': 'Hill'
     },
     'location': {
       'street': '3662 bollinger rd',
@@ -399,8 +399,8 @@ const customers = [
     'gender': 'female',
     'name': {
       'title': 'mrs',
-      'first': 'addison',
-      'last': 'graves'
+      'first': 'Addison',
+      'last': 'Graves'
     },
     'location': {
       'street': '5740 westheimer rd',
