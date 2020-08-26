@@ -1,10 +1,11 @@
 
+
+
 function addPerson () {
   const customerProfile = document.querySelector('#customerInfo')
   for (let customer of customers) {
     const div = document.createElement('div')
     customerProfile.appendChild(div)
-    const person = document.querySelector('.person-div')
 
     const img = document.createElement('img')
     img.src = customer.picture.large
@@ -22,7 +23,7 @@ function addPerson () {
     const streetAddress = document.createElement('p')
     customerProfile.lastElementChild.appendChild(streetAddress)
     streetAddress.innerText = customer.location.street
-    // need capitalization here 
+    // need capitalization here
 
     const cityStAddress = document.createElement('p')
     customerProfile.lastElementChild.appendChild(cityStAddress)
@@ -31,7 +32,7 @@ function addPerson () {
 
     const phone = document.createElement('p')
     customerProfile.lastElementChild.appendChild(phone)
-    phone.innerText = 'Phone:' + customer.phone 
+    phone.innerText = 'Phone:' + customer.phone
 
     const birthdate = document.createElement('p')
     customerProfile.lastElementChild.appendChild(birthdate)
@@ -44,5 +45,4 @@ function addPerson () {
     // need to format this date too
 }
 }
-addPerson();
-
+addPerson()

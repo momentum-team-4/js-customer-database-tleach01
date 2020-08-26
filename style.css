@@ -13,20 +13,24 @@
   #customerInfo img {
     height: 200px;
     width: 200px;
-    margin: 15px;
-    border: 2px double rgb(21, 101, 148);
-    border-radius: 25px;
+    margin: 14px;
+    border-radius: 25px 50px;
+    border-bottom: 5px solid rgb(71, 100, 153);
+    border-left: 5px solid rgb(71, 102, 161);
   }
 
   h1{
     text-align: center;
-   
   }
 
   h2{
-    text-decoration: underline rgb(32, 72, 148);
+    text-decoration: underline rgb(60, 98, 168);
   }
 
  p{
      font-style: italic;
+     text-transform: capitalize;
+     margin: 10px;
+     text-align: center;
  }
+
